@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         console.log(When - ProdTime);
         if((When - ProdTime) <= 3) {  
-            alert("MRP nie możliwe do oblcizenia dla tych wartości. Proszę wprowadzić poprawne wartości.");
+            alert("MRP nie możliwe do obliczenia dla tych wartości. Proszę wprowadzić poprawne wartości.");
             return;
         }
 
